@@ -1,12 +1,16 @@
 body {
   margin: 0;
   height: 100vh; 
-  background: linear-gradient(135deg, #8E2DE2, #4A00E0);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 
+}
+
+.background{
+    background: linear-gradient(135deg, #8E2DE2, #4A00E0);
+    padding: 20px;
 }
 
 .name h2 {   
