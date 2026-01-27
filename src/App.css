@@ -1,19 +1,24 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center; 
-  margin-top: 50px; 
-  color: #333;     
+  margin: 0;
+  height: 100vh; 
+  background: linear-gradient(135deg, #8E2DE2, #4A00E0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
 }
 
-.name h2 {
-  font-size: 3rem;     
-  color: #2c3e50;       
-  margin-bottom: 30px;  
+.name h2 {   
+  font-weight: bold;
+  margin: 0 0 20px 0;     
+  text-shadow: 0 4px 10px rgba(0,0,0,0.3); 
 }
+
 
 h2 {
-  font-size: 1.2rem;  
-  font-weight: normal;
-  margin: 10px 0;       
-  color: #555;          
+  font-size: 20px;       
+  font-weight: bold;        
+  margin: 10px 0;
+  opacity: 0.9;           
 }
