@@ -1,0 +1,106 @@
+.phuclong-footer {
+    background-color: #f9f9f9;
+    border-top: 3px solid #006a31;
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 30px;
+    padding: 0 20px 40px 20px;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-heading {
+    color: #006a31;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #555;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #006a31;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    background-color: #006a31;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #004d24;
+}
+
+.subscribe-box {
+    display: flex;
+    margin-top: 10px;
+}
+
+.subscribe-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    flex: 1;
+}
+
+.subscribe-btn {
+    background-color: #006a31;
+    color: white;
+    border: none;
+    padding: 0 15px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    background-color: #006a31;
+    color: white;
+    padding: 15px 0;
+    font-size: 13px;
+}
+
+.footer-bottom-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
