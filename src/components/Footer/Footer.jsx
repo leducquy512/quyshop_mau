@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer className="phuclong-footer">
             <div className="footer-container">
-                {/* Cột 1: Thông tin công ty & Logo */}
+                
                 <div className="footer-column company-info">
                     <img src={logoImage} alt="Phuc Long Logo" className="footer-logo" />
                     <p className="company-name">Trụ sở chính: Công ty Cổ Phần Phúc Long Heritage</p>
@@ -18,7 +18,6 @@ const Footer = () => {
                     <p>Email: info2@phuclong.com.vn</p>
                 </div>
 
-                {/* Cột 2: Liên kết nhanh */}
                 <div className="footer-column">
                     <h3 className="footer-heading">VỀ CHÚNG TÔI</h3>
                     <ul className="footer-links">
@@ -29,7 +28,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Cột 3: Chính sách */}
+            
                 <div className="footer-column">
                     <h3 className="footer-heading">CHÍNH SÁCH</h3>
                     <ul className="footer-links">
@@ -39,7 +38,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Cột 4: Đăng ký & Mạng xã hội */}
+             
                 <div className="footer-column">
                     <h3 className="footer-heading">THEO DÕI CHÚNG TÔI</h3>
                     <div className="social-icons">
@@ -58,7 +57,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/* Bottom Footer: Copyright */}
+           
             <div className="footer-bottom">
                 <div className="footer-bottom-content">
                     <span>© 2024 Phuc Long Heritage. All rights reserved.</span>
