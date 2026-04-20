@@ -1,70 +1,95 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import './Footer.css';
-import logoImage from '../../img/logo.png';
+import logo from '../../img/logo.png';
 
 const Footer = () => {
-    const navigate = useNavigate();
-
     return (
-        <footer className="phuclong-footer">
-            <div className="footer-container">
-                
-                <div className="footer-column company-info">
-                    <img src={logoImage} alt="Phuc Long Logo" className="footer-logo" />
-                    <p className="company-name">Trụ sở chính: Công ty Cổ Phần Phúc Long Heritage</p>
-                    <p>Địa chỉ: 42/24 - 42/26 Đường 643 Tạ Quang Bửu, P.4, Q.8, TP.HCM</p>
-                    <p>Điện thoại: 028 6263 0377 - 6263 0378</p>
-                    <p>Email: info2@phuclong.com.vn</p>
-                </div>
-
-                <div className="footer-column">
-                    <h3 className="footer-heading">VỀ CHÚNG TÔI</h3>
-                    <ul className="footer-links">
-                        <li><a href="/about">Tầm nhìn & Sứ mệnh</a></li>
-                        <li><a href="/career">Cơ hội nghề nghiệp</a></li>
-                        <li><a href="/promotions">Tin tức & Khuyến mãi</a></li>
-                        <li><a href="/stores">Hệ thống cửa hàng</a></li>
-                    </ul>
-                </div>
-
+        <footer className="highlands-footer">
             
-                <div className="footer-column">
-                    <h3 className="footer-heading">CHÍNH SÁCH</h3>
-                    <ul className="footer-links">
-                        <li><a href="/policy">Chính sách bảo mật</a></li>
-                        <li><a href="/terms">Điều khoản sử dụng</a></li>
-                        <li><a href="/delivery-policy">Chính sách giao hàng</a></li>
-                    </ul>
+            <div className="footer-green-strip"></div>
+
+            <div className="footer-content">
+             
+                <div className="footer-left">
+                    <div className="footer-logo">
+                        <img src={logo} alt="Highlands Coffee" className="footer-logo-img" />
+                    </div>
+                    <p className="footer-copyright">
+                        ©2025 Galaxy Cafe. All rights reserved
+                    </p>
                 </div>
 
-             
-                <div className="footer-column">
-                    <h3 className="footer-heading">THEO DÕI CHÚNG TÔI</h3>
-                    <div className="social-icons">
-                        <a href="https://facebook.com" className="social-icon"><i className="fab fa-facebook-f"></i></a>
-                        <a href="https://instagram.com" className="social-icon"><i className="fab fa-instagram"></i></a>
-                        <a href="https://youtube.com" className="social-icon"><i className="fab fa-youtube"></i></a>
-                        <a href="#" className="social-icon"><i className="fab fa-twitter"></i></a>
+           
+                <div className="footer-middle">
+                    
+                    <div className="footer-column">
+                        <h3 className="footer-column-title">VỀ GALAXYCAFE</h3>
+                        <ul className="footer-links">
+                            <li><a href="/origin">Nguồn gốc</a></li>
+                            <li><a href="/services">Dịch vụ</a></li>
+                            <li><a href="/careers">Nghề Nghiệp</a></li>
+                            <li><a href="/contact">Liên hệ</a></li>
+                        </ul>
                     </div>
-                    <div className="newsletter">
-                        <p>Đăng ký nhận tin từ Phúc Long</p>
-                        <div className="subscribe-box">
-                            <input type="email" placeholder="Email của bạn..." />
-                            <button className="subscribe-btn"><i className="fas fa-paper-plane"></i></button>
-                        </div>
+
+                    
+                    <div className="footer-column">
+                        <h3 className="footer-column-title">HỆ THỐNG CỬA HÀNG</h3>
+                        <ul className="footer-links">
+                            <li><a href="/find-store">Tìm cửa hàng gần nhất</a></li>
+                        </ul>
+                    </div>
+
+                    <div className="footer-column">
+                        <h3 className="footer-column-title">TIN TỨC</h3>
+                        <ul className="footer-links">
+                         
+                        </ul>
+                    </div>
+                </div>
+
+               
+                <div className="footer-right">
+                    <h3 className="footer-column-title">THEO DÕI CHÚNG TÔI</h3>
+                    <div className="footer-social-icons">
+                        <a href="https://facebook.com" className="social-icon" aria-label="Facebook">
+                            <i className="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com" className="social-icon" aria-label="Instagram">
+                            <i className="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://youtube.com" className="social-icon" aria-label="YouTube">
+                            <i className="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://tiktok.com" className="social-icon" aria-label="TikTok">
+                            <i className="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+
+                    <div className="footer-map">
+                        <iframe
+                            title="Bản đồ địa điểm Galaxy Cafe"
+                            className="footer-map__iframe"
+                            src="https://www.google.com/maps?q=10.743902,106.6340446&z=17&output=embed&hl=vi"
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            allowFullScreen
+                        />
+                        <a
+                            className="footer-map__link"
+                            href="https://maps.app.goo.gl/6RuUrqKaYAFspPe57"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Mở trong Google Maps
+                        </a>
                     </div>
                 </div>
             </div>
 
-           
-            <div className="footer-bottom">
-                <div className="footer-bottom-content">
-                    <span>© 2024 Phuc Long Heritage. All rights reserved.</span>
-                    <div className="footer-bottom-links">
-                        <span>VN</span> | <span>EN</span>
-                    </div>
-                </div>
+            
+            <div className="footer-chat-icon" title="Chat với chúng tôi">
+                <i className="fas fa-comment-dots"></i>
             </div>
         </footer>
     );
